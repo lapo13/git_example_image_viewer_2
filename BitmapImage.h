@@ -10,6 +10,8 @@ public:
     ~BitmapImage();
 
     bool load(std::string name);
+    bool save(std::string name);
+    bool resize(int width, int height);
 
 private:
     int width, height;
